@@ -50,5 +50,5 @@ jobs:
           registryUsername: ${{ secrets.DOCKERHUB_USERNAME }}
           registryPassword: ${{ secrets.DOCKERHUB_TOKEN }}
           containerAppName: app88
-          resourceGroup: container-labs-rg
+          resourceGroup: EMIN_RG
           imageToBuild: emincode/app88:${{ github.sha }}
