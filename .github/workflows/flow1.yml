@@ -8,7 +8,7 @@ permissions:
   actions: read
   checks: write
   pull-requests: write
-  id-token: write  # keep only if you plan to use OIDC; otherwise can remove
+ # id-token: write  # keep only if you plan to use OIDC; otherwise can remove
 
 jobs:
   build-test-and-deploy:
