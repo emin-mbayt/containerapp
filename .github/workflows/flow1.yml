@@ -50,3 +50,4 @@ jobs:
           containerAppName: app88
           resourceGroup: EMIN_RG
           imageToBuild: emincode1/app88:${{ github.sha }}
+          targetPort: 3000
